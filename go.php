@@ -4,6 +4,7 @@ require 'loader.php';
 
 $checkin_double_check_filenames_and_venues = [];
 
+// set these paths for import and export
 $foursquare_dump_path = '../foursquare-data-export-255287/';
 $output_path = '../foursquare-html-checkins-by-day/';
 
