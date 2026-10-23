@@ -1,4 +1,7 @@
 <?php
+namespace Artlung\FoursquareExportToHtml;
+use DateTime;
+use DateTimeZone;
 
 class Checkin extends Base {
     // example json = {"id":"64fe70f21294485a9dd37456","createdAt":"2023-09-11 01:44:18.000000","type":"checkin","private":true,"visibility":"private","timeZoneOffset":-420,"venue":{"id":"4aabbd5cf964a520e55920e3","name":"Ocean Beach Dog Beach","url":"https:\/\/foursquare.com\/v\/ocean-beach-dog-beach\/4aabbd5cf964a520e55920e3"},"comments":{"count":0}}

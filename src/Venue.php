@@ -1,5 +1,5 @@
 <?php
-
+namespace Artlung\FoursquareExportToHtml;
 class Venue extends Base {
     // example json {"id":"4aabbd5cf964a520e55920e3","name":"Ocean Beach Dog Beach","url":"https:\/\/foursquare.com\/v\/ocean-beach-dog-beach\/4aabbd5cf964a520e55920e3"}
     public string $id;

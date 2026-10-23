@@ -1,5 +1,5 @@
 <?php
-
+namespace Artlung\FoursquareExportToHtml;
 class Location extends Base {
     // json {"name":"mill mountain coffee and tea","lat":37.24381973819321,"lng":-79.99104109142723}
     public string $name;

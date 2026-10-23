@@ -1,5 +1,5 @@
 <?php
-
+namespace Artlung\FoursquareExportToHtml;
 class Items extends Base {
 
 

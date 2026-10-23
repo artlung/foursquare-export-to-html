@@ -1,5 +1,5 @@
 <?php
-
+namespace Artlung\FoursquareExportToHtml;
 class Categories extends Base
 {
     // set a category for each item in the json

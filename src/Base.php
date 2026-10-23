@@ -1,13 +1,9 @@
 <?php
 
+namespace Artlung\FoursquareExportToHtml;
 class Base {
     protected $json;
 
-    public function __construct($json = '') {
-        if ($json) {
-            $this->setJson($json);
-        }
-    }
     public function setJson($json) {
         $this->json = $json;
     }
