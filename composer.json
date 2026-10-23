@@ -14,5 +14,10 @@
             "email": "joe@artlung.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.4"
+    }
 }

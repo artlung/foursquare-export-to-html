@@ -133,4 +133,19 @@ EOT;
     {
         return $this->_foursquareDumpPath;
     }
+
+    public function removePriorHtmlByDayPath()
+    {
+
+        $output_path = $this->getHtmlByDayPath();
+        if (is_dir($output_path)) {
+            $files = scandir($output_path);
+            foreach ($files as $file) {
+                if (str_contains($file, '.html')) {
+                    unlink($output_path . '/' . $file);
+                }
+            }
+        }
+        return $this;
+    }
 }

@@ -12,4 +12,5 @@ $runner = new Runner();
 $runner
     ->setFoursquareDumpPath(__DIR__ . '/../artlung.com/data/foursquare/artlung/data-export-255287/')
     ->setHtmlByDayPath(__DIR__ . '/../artlung.com/data/foursquare/artlung/html-checkins-by-day/')
+    ->removePriorHtmlByDayPath()
     ->run();
