@@ -1,0 +1,18 @@
+{
+    "name": "artlung/foursquare-export-to-html",
+    "description": "Parse the default export from Foursquare to HTML",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Artlung\\FoursquareExportToHtml\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Crawford",
+            "email": "joe@artlung.com"
+        }
+    ],
+    "require": {}
+}
